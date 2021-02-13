@@ -1,0 +1,70 @@
+@import "style.css";
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2019/09/19/22/59/virtual-reality-4490469_1280.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+main {
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+h3 {
+    text-align: center;
+    color: #fff;
+}
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4ea8de;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000;
+  color: #4ea8de;
+}
+
+/* Style the container/contact section */
+.contact {
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.nav {
+    background-color: #4ea8de;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #000;
+}

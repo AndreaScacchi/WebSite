@@ -1,0 +1,51 @@
+@import "style.css";
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+h1 {
+    color: #ffd500;
+    text-align: center;
+    margin: 50px;
+}
+
+.para {
+    text-align: center;
+    color: #0077b6;
+}
+
+.para a {
+    color: #ffd500;
+}
+
+.div {
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 2px 3px #0077b6;
+    text-align: center;
+    color: #ffd500;
+    margin-top: 50px;
+}
+
+.nav {
+    background-color: #ffd500;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #000;
+}

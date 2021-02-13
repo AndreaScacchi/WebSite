@@ -1,0 +1,44 @@
+@import "style.css";
+
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/18/10/59/human-digestive-system-163714_1280.jpg);#000;
+    color: #000;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+main {
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+.healthcare-sector {
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    color: #9e0059;
+}
+
+.health {
+    padding: 25px;
+}
+
+.nav {
+    background-color: #fff;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #000;
+}

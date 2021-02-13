@@ -1,0 +1,44 @@
+@import "style.css";
+
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/13/13/42/drone-161414_1280.png);
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main {
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+.military-sector {
+    padding: 25px;
+}
+
+h1 {
+    color: #606c38;
+    text-align: center;
+}
+
+.soldier {
+    padding: 25px;
+}
+
+.nav {
+    background-color: #606c38;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #000;
+}

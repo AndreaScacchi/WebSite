@@ -1,0 +1,127 @@
+body {
+    background-image: url(https://images.pexels.com/photos/4009599/pexels-photo-4009599.jpeg?cs=srgb&dl=pexels-cottonbro-4009599.jpg&fm=jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f48c06;
+    font-weight: bold;
+}
+
+main {
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+.Virtual-Reality {
+    text-align: center;
+    padding: 50px;
+}
+
+#explain {
+    padding: 15px;
+}
+
+#firms {
+    padding: 15px;
+}
+
+.list {
+    padding: 15px;
+}
+
+.list a:hover {
+    color: #d00000;
+}
+
+#sectors {
+    padding: 15px;
+}
+
+.areas {
+    padding: 15px;
+}
+
+.areas a:hover {
+    color: #03045e;
+}
+
+.VR {
+    padding: 15px;
+    margin-top: 3em;
+}
+
+footer {
+    padding: 5px;
+    text-align: right;
+    font-style: italic;
+}
+
+#sign-up {
+    background: #000;
+    color: #f48c06;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 3px #f48c06;
+    border: 5px solid #000;
+    width: 100px;
+}
+
+#sign-up:hover {
+    background-color: #f48c06;
+    color: #000;
+    box-shadow: 0 3px #000;
+}
+
+.form-control {
+    font-style: italic;
+}
+
+h3 {
+    color: #f48c06;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+h2 {
+    color: #f48c06;
+}
+
+h1 {
+    color: #f48c06;
+}
+
+a {
+    color: #000;
+}
+
+hr {
+    border: 4px solid #000;
+    color: #000;
+}
+
+.nav {
+    background-color: #f48c06;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #000;
+}
+
+@media screen and (max-width: 500px) {
+    .nav a {
+        float: none;
+        display: block;
+        font-size: 20px;
+    }
+}
